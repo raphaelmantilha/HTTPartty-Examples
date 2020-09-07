@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="25" skipped="0" failures="0" errors="0" time="6.033019" timestamp="2019-08-23T17:05:53-03:00" hostname="ARANOT040">
+<properties>
+<property name="seed" value="43933"/>
+</properties>
+<testcase classname="spec.delete_spec" name="delete quando deleto um usuário cadastrado deve retornar 204" file="./spec/delete_spec.rb" time="3.372880"></testcase>
+<testcase classname="spec.delete_spec" name="delete quando o id do usuário não existe deve retornar 404" file="./spec/delete_spec.rb" time="0.194084"></testcase>
+<testcase classname="spec.delete_spec" name="delete quando id do usuário é incorreto deve retornar 412" file="./spec/delete_spec.rb" time="0.268321"></testcase>
+<testcase classname="spec.get_spec" name="get quando um usuário é registrado deve retornar os dados corretos" file="./spec/get_spec.rb" time="0.212271"></testcase>
+<testcase classname="spec.get_spec" name="get quando usuário não existe deve retornar 404" file="./spec/get_spec.rb" time="0.193344"></testcase>
+<testcase classname="spec.get_spec" name="get quando id é inválido deve retornar 412" file="./spec/get_spec.rb" time="0.194213"></testcase>
+<testcase classname="spec.get_spec" name="get quando se pesquisa id diferente do id do usuário que está logado deve retornar 401" file="./spec/get_spec.rb" time="0.338203"></testcase>
+<testcase classname="spec.post_spec" name="post quando cadastro um novo usuário então deve retornar 200" file="./spec/post_spec.rb" time="0.112109"></testcase>
+<testcase classname="spec.post_spec" name="post quando é fornecido e-mail duplicado então deve retornar 409" file="./spec/post_spec.rb" time="0.169669"></testcase>
+<testcase classname="spec.post_spec" name="post quando é fornecido e-mail duplicado então a mensagem de erro deve ser exibida" file="./spec/post_spec.rb" time="0.212239"></testcase>
+<testcase classname="spec.post_spec" name="post quando é inserido e-mail inválido então deve retornar 412" file="./spec/post_spec.rb" time="0.023936"></testcase>
+<testcase classname="spec.post_spec" name="post quando é inserido e-mail inválido então a mensagem de erro deve ser exibida" file="./spec/post_spec.rb" time="0.077403"></testcase>
+<testcase classname="spec.post_spec" name="post quando nome estiver vazio então deve retornar 412" file="./spec/post_spec.rb" time="0.023798"></testcase>
+<testcase classname="spec.post_spec" name="post quando nome estiver vazio então a mensagem de erro deve ser exibida" file="./spec/post_spec.rb" time="0.025885"></testcase>
+<testcase classname="spec.post_spec" name="post quando e-mail estiver vazio então deve retornar 412" file="./spec/post_spec.rb" time="0.024586"></testcase>
+<testcase classname="spec.post_spec" name="post quando e-mail estiver vazio então a mensagem de erro deve ser exibida" file="./spec/post_spec.rb" time="0.017750"></testcase>
+<testcase classname="spec.post_spec" name="post quando e-mail estiver vazio então deve retornar 412" file="./spec/post_spec.rb" time="0.024410"></testcase>
+<testcase classname="spec.post_spec" name="post quando e-mail estiver vazio então a mensagem de erro deve ser exibida" file="./spec/post_spec.rb" time="0.014799"></testcase>
+<testcase classname="spec.post_spec" name="post quando full_name é nulo então deve retornar 412" file="./spec/post_spec.rb" time="0.029670"></testcase>
+<testcase classname="spec.post_spec" name="post quando full_name é nulo então a mensagem de erro deve ser exibida" file="./spec/post_spec.rb" time="0.013386"></testcase>
+<testcase classname="spec.post_spec" name="post quando e-mail é nulo então deve retornar 412" file="./spec/post_spec.rb" time="0.028567"></testcase>
+<testcase classname="spec.post_spec" name="post quando e-mail é nulo então a mensagem de erro deve ser exibida" file="./spec/post_spec.rb" time="0.024496"></testcase>
+<testcase classname="spec.post_spec" name="post quando password é nulo então deve retornar 412" file="./spec/post_spec.rb" time="0.014623"></testcase>
+<testcase classname="spec.post_spec" name="post quando password é nulo então a mensagem de erro deve ser exibida" file="./spec/post_spec.rb" time="0.024629"></testcase>
+<testcase classname="spec.put_spec" name="put quando tenho um usuário cadastrado deve retornar dados corretos" file="./spec/put_spec.rb" time="0.000175"></testcase>
+</testsuite>
